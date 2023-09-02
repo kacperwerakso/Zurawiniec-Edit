@@ -1,0 +1,270 @@
+	* {
+		font-family: 'Open Sans', sans-serif;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.body {
+		background: "white-space";
+		font-family: 'Open Sans', sans-serif;
+		
+	}
+
+	.h1 {
+		color: "dark-green";
+	}
+
+	.footer {
+		color: silver;
+	}
+
+	.main {
+		max-width: 1000px;
+		margin: 0 auto;
+		font-family: 'Open Sans', sans-serif;
+		
+	}
+
+	.navigations {
+		background-image:radial-gradient(rgb(27, 151, 63),rgb(34, 118, 55));
+		padding: 15px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.navigations__link {
+		color: white;
+		display: inline-block;
+		margin-right: 30px;
+		text-decoration: none;
+		border-radius: 20px;
+		background-image:radial-gradient(rgb(27, 151, 63),rgb(25, 107, 46));
+		padding: 15px;
+		font-weight: 100;
+		
+	}
+	
+	.navigations__link:hover {
+		background-image:radial-gradient(rgb(27, 151, 63),rgb(28, 83, 41));
+	}
+
+	.navigations__link2 {
+		color: white;
+		text-align: right;
+		margin-right: 40px;
+		align-items: right;
+		margin-right: 90px;
+		text-decoration: none;
+		border-radius: 20px;
+		background-color: darkolivegreen;
+		padding: 15px;
+
+	}
+
+	.obramowka {
+		padding: 30px;
+		border: 2px #ccc solid;
+		margin-bottom: 15px;
+		border-radius: 40px;
+		background-image:radial-gradient(rgb(206, 206, 206),rgb(255, 255, 255));
+	}
+
+	.obramowka2 {
+		padding: 30px;
+		border: 2px #ccc solid;
+		margin-bottom: 15px;
+		border-radius: 40px;
+		background-image:radial-gradient(rgb(206, 206, 206),rgb(255, 255, 255));
+	}
+
+	.obramowka3 {
+		padding: 20px;
+		border: 2px #ccc solid;
+		margin-bottom: 15px;
+		border-radius: 40px;
+		background-image:radial-gradient(rgb(206, 206, 206),rgb(255, 255, 255));
+	}
+
+	.tytul {
+		color: #3F403F;
+		text-align: center;
+	}
+
+	.tekst1 {
+		color: maroon;
+	}
+
+	.mainheading {
+		color: black;
+		text-align: center;
+		font-weight: 100;
+		font-size: 25px;
+	}
+
+	.tekst2 {
+		background: green;
+		color: white;
+		padding: 80px;
+		border-width: 30px;
+		border-radius: 50%;
+		display: inline-block;
+		margin-right: 90px;
+	}
+
+	.foto1 {
+		width: 100%;
+	}
+
+	.foto2 {
+		padding: 20px;
+		width: 40%;
+		align-items: center;
+		display: inline;
+		text-align: center;
+		margin: auto;
+		display: block;
+	}
+
+
+	.foto3 {
+		width: 100%;
+		align-items: center;
+		display: inline;
+	}
+
+	.foto4 {
+		width: 100%;
+		align-items: center;
+		display: inline;
+	}
+
+	.foto5 {
+		width: 100%;
+		align-items: center;
+		display: inline;
+	}
+
+	.foto6 {
+		width: 100%;
+		align-items: center;
+		display: inline;
+	}
+
+	.foto7 {
+		width: 100%;
+		align-items: center;
+		display: inline;
+	}
+
+	.foto8 {
+		width: 100%;
+		align-items: center;
+		display: inline;
+	}
+
+	.odnosnik {
+		color: grey;
+		align-items: center;
+		text-align: center;
+		display: block;
+		text-decoration: none;
+	}
+
+	.podinf {
+		text-align: center;
+		font-weight: 100;
+		line-height: 200%;
+
+	}
+
+	.podinf2 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight:100;
+	}
+
+	.lok {
+		text-align: center;
+		font-weight: 100;
+	}
+
+	.lista {
+		margin-left: 30px;
+		font-weight: 100;
+	}
+
+
+	body {
+		background: white;
+		
+	}
+
+	.form {
+		margin: 50px auto;
+		width: 300px;
+		padding: 30px 25px;
+		background: white;
+		
+	}
+
+	h1.login-title {
+		color: #666;
+		margin: 0px auto 25px;
+		font-size: 25px;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	.link {
+		color: #666;
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 0px;
+		
+	}
+
+	.link a {
+		color: #666;
+	}
+
+	h3 {
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.tekst3 {
+		background-image:radial-gradient(rgb(27, 151, 63),rgb(34, 118, 55));
+		color: white;
+		padding: 30px;
+		border-width: center;
+		border-radius: 50px 20px;
+		display: inline-block;
+		margin: 20px;
+		text-align: center;
+		font-weight: 100;
+	}
+
+	.artykuly {
+		text-align: center;
+	}
+
+	.footer1 {
+		text-align: center;
+		background-color: whitesmoke;
+		padding: 30px;
+		
+	}
+
+	.footer1tekst {
+		font-weight: 100;
+		font-size: 14px;
+	}
+
+	@media (max-width: 600px) {
+		.navigations__link {
+			font-size: 13px;
+			margin-right: 2px;
+			width: 18%;
+			text-align: center;
+		}}
+
