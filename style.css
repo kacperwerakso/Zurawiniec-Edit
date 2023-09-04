@@ -6,9 +6,8 @@
 	}
 	
 	.body {
-		background: "white-space";
 		font-family: 'Open Sans', sans-serif;
-		
+		background: linear-gradient(to right, #c5c5c5, white, white, white, white, white, white, white, white, white, white, white, white, #c5c5c5);
 	}
 
 	.h1 {
@@ -23,7 +22,7 @@
 		max-width: 1000px;
 		margin: 0 auto;
 		font-family: 'Open Sans', sans-serif;
-		
+		background-color: white;
 	}
 
 	.navigations {
@@ -36,13 +35,13 @@
 	.navigations__link {
 		color: white;
 		display: inline-block;
-		margin-right: 30px;
 		text-decoration: none;
 		border-radius: 20px;
 		background-image:radial-gradient(rgb(27, 151, 63),rgb(25, 107, 46));
 		padding: 15px;
 		font-weight: 100;
-		
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 	
 	.navigations__link:hover {
@@ -63,6 +62,14 @@
 	}
 
 	.obramowka {
+		padding: 30px;
+		border: 2px #ccc solid;
+		margin-bottom: 15px;
+		border-radius: 40px;
+		background-image:radial-gradient(rgb(206, 206, 206),rgb(255, 255, 255));
+	}
+	
+	.obramowka6 {
 		padding: 30px;
 		border: 2px #ccc solid;
 		margin-bottom: 15px;
@@ -193,7 +200,6 @@
 		font-weight: 100;
 	}
 
-
 	body {
 		background: white;
 		
@@ -259,12 +265,79 @@
 		font-weight: 100;
 		font-size: 14px;
 	}
+	
+	.obramowkaInfo {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 500px) {
 		.navigations__link {
-			font-size: 13px;
-			margin-right: 2px;
-			width: 18%;
+			font-size: 12px;
 			text-align: center;
-		}}
-
+			line-height: 10px;
+			margin-top: 10px;
+		}
+		.obramowka3 {
+			width: 300px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.mainheading {
+			font-size: 20px;
+		}
+		.tytul {
+			font-size: 20px;
+		}
+		.foto2 {
+			width: 250px;
+		}
+		.tekst3 {
+			font-size: 14px;
+		}
+		.podinf2 {
+			font-size: 15px;
+			line-height: 22px;
+		}
+		.obramowka2 {
+			border-radius: 0px;
+		}
+		.obramowka {
+			border-radius: 0px;
+		}
+		.lista {
+			font-size: 20px;
+			line-height: 30px;
+		}
+		.body {
+			background: linear-gradient(to right, white, white, white, white, white, white, white, white, white, white, white, white, white, white);
+		}
+	}
+	@media (min-width: 1300px) and (max-width: 2000px) {
+		.ullista {
+			margin-bottom: 50px;
+			font-size: 25px;
+			line-height: 35px;
+		}
+		.navigations__link {
+			font-size: 20px;
+			text-align: center;
+			line-height: 10px;
+			margin-top: 10px;
+			padding: 25px;
+			border-radius: 50px;
+			margin-left: 25px;
+			margin-right: 25px;
+		}
+		.tytul {
+			font-size: 27px;
+			margin-bottom: 20px;
+		}
+		.podinf2 {
+			font-size: 22px;
+			line-height: 30px;
+		}
+		
+	}
