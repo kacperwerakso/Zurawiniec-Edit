@@ -1,10 +1,3 @@
-https://kacperwerakso.github.io/RemoteBusinessCard/
-
-
-
-
-
-
 # Zurawiniec-Edit
 Zurawiniec website with backend disabled
 
